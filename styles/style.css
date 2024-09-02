@@ -6,6 +6,11 @@ Green: #00B172
 White: #FFF
 
 */
+
+body {
+    text-align: center;
+}
+
 header {
     display: flex;
     justify-content: space-between;
@@ -30,5 +35,22 @@ header img {
 }
 
 .topSection {
-    float: top;
+    position: relative;    
+}
+
+.card img {
+    height:50px;
+}
+
+.topSection {
+    background-image: url(../images/landing.jpg);
+    height: 800px;
+    width: 100vw;    
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.middleSection {
+    display: flex;
+    flex-direction: column;
 }
